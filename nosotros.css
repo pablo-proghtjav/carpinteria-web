@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    font-family: Helvetica;
+}
+nav{
+    background-color: #482E2E;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    padding: 20px 40px;
+}
+.links{
+    color: wheat;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.links li a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.2s;
+}
+.links li a:hover {
+    color: #ffcc66;
+    transform: scale(1.1);
+}
+.derechoLogo h3{
+    color: wheat;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+}
+header img{
+    width: 800px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+.texto h2{
+    font-size: 40px;    
+    color: #3B2525;
+}
+.texto h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    color: #5a3b3b;
+}
+.texto p{
+    text-align: justify;
+    font-size: 17px;
+    color: #333;
+}
+
+main .portafolio{
+    background: #f0f3f5;
+    padding: 60px 0;
+}
+main .portafolio .portafolio-textos{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #2d3950;
+    font-size: 20px;
+}
+main .portafolio .portafolio-textos p{
+    color: #909090;
+    font-size: 15px;
+    margin: 20px 0 0 0;
+}
+main .portafolio .galeria{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main .portafolio .galeria .fotos{
+    width: 30%;
+    margin-bottom: 20px;
+}
+main .portafolio .galeria .fotos img{
+    width: 100%;
+    border-radius: 5px;
+}
+main .portafolio .galeria .fotos img:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+main .portafolio .galeria .fotos h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+main .quehacemos{
+    margin: 60px 0;
+}
+main .quehacemos h3{
+    text-align: center;
+    padding-bottom: 60px;
+}
+main .quehacemos img{
+    height: 100px;
+    
+}
+main .contenido-cajas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .quehacemos .contenido-cajas .tarjeta{
+    width: 30%;
+    text-align: center;
+}
+main .quehacemos .contenido-cajas .tarjeta .contenido-tarjeta .titulo-tarjeta{
+    margin: 10px 0;
+}
+
+footer{
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 20px;
+}
+.descripcion{
+
+    width: 800px;
+}
+footer .enlaces ul li{
+    list-style: none;
+    padding: 5px 0px 5px 0px;
+}
+footer .enlaces ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+footer .enlaces ul li a:hover{
+    color: #A86457;
+}
+footer .descripcion p{
+    color: white;
+    text-align: justify;
+}
+footer .descripcion h3{
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
