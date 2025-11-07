@@ -80,7 +80,6 @@ header img{
 .texto .boton input[type="submit"]:hover{
     background: white;
     color: #A86457;  
-    border: 1px solid #A86457; 
 }
 
 main h3{
