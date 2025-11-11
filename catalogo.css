@@ -56,6 +56,7 @@ main .secciones .detalles h2{
 }
 main .secciones .detalles p{
     text-align: justify;
+    font-size: 18px;
 }
 main .secciones .detalles .botones{
     margin-top: auto;    
